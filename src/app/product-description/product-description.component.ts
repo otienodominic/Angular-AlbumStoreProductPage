@@ -9,7 +9,7 @@ import { Observable } from "rxjs/Rx"
 })
 export class ProductDescriptionComponent implements OnInit {  
 
-  public albumInfo = []
+  albumInfo;
   constructor(private _productService: ProductService) {
     
    }
